@@ -73,8 +73,8 @@ class App extends Component {
         return (
             <div className="App container d-flex flex-column">
                 <div className="row">
-                    <div className="col-md-6 d-flex flex-column align-items-center">
-                        <div className="py-5">
+                    <div className="col-lg-6 d-flex flex-column align-items-center">
+                        <div className="p-5">
                             <Windrose 
                                 size={200}
                                 grid={{
@@ -91,7 +91,7 @@ class App extends Component {
                                 values={this.computeWindroseValues(measurements, 2)} 
                             />
                         </div>
-                        <div className="py-5">
+                        <div className="p-5">
                             <Windrose 
                                 size={300}
                                 grid={{
@@ -109,7 +109,7 @@ class App extends Component {
                             />
                         </div>
                     </div>
-                    <div className="col-md-6 d-flex flex-row justify-content-center align-items-center py-5">
+                    <div className="col-lg-6 d-flex flex-row justify-content-center align-items-center py-5">
                         <Windrose 
                             size={500}
                             grid={{
